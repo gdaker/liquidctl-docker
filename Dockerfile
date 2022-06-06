@@ -1,5 +1,6 @@
 FROM debian:stable-slim
 
+COPY yoda /yoda
 COPY run.sh /run.sh
 
 RUN apt update \
